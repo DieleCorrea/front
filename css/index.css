@@ -1,0 +1,25 @@
+
+header {
+    background-image: url('https://www.ccp.org.br/web/pf-ccp/inline-images/act047_volunteer_1.jpg') /* Substitua pelo caminho da sua imagem */;
+    background-size: cover; /* Ajusta a imagem para cobrir todo o cabeçalho */
+    padding: 50px; /* Adicionando algum espaço interno ao cabeçalho */
+    text-align: center;
+}
+.cabecalho{
+    background-color: rgb(205, 168, 183);
+    padding: 10px;
+    border-radius: 5px;
+    position: relative; 
+    top: 50%; /* Move o topo da caixa para o meio do cabeçalho */
+    left: 50%; /* Move a esquerda da caixa para o meio do cabeçalho */
+    transform: translate(-50%, -50%); /* Centraliza a caixa no meio do cabeçalho */
+}
+    
+    
+   /*  padding: 10px; Adicionando algum espaço interno ao cabeçalho */
+   /*  text-align: center; /* Centralizando o texto no cabeçalho */
+
+body{
+    background-color: pink;
+    margin: 0;
+}
