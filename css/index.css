@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Hedvig+Letters+Serif:opsz@12..24&family=Libre+Franklin:ital,wght@1,100&family=Mukta:wght@200&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Hedvig+Letters+Serif:opsz@12..24&family=Libre+Franklin:ital,wght@1,100&family=Mukta:wght@200&family=Vina+Sans&display=swap');
 header {
     background-image: url('https://www.ccp.org.br/web/pf-ccp/inline-images/act047_volunteer_1.jpg') /* Substitua pelo caminho da sua imagem */;
     background-size: cover; /* Ajusta a imagem para cobrir todo o cabeçalho */
@@ -7,6 +7,8 @@ header {
     text-align: center;
 }
 .cabecalho{
+    font-family: 'Hedvig Letters Serif', serif;
+    color: #b84481;
     background-color: rgb(205, 168, 183);
     padding: 10px;
     border-radius: 5px;
@@ -33,7 +35,8 @@ body{
         width: 50%;
     }
     .textoVoluntario h1{
-
+        color: #b84481;
+        font-family: 'Hedvig Letters Serif', serif;
     }
     .textoVoluntario p{
         font-family: 'Mukta', sans-serif;
@@ -54,7 +57,12 @@ body{
     background-color:#cda8b7;
 }
 .nossaHistoria h1{
-
+    color: #b84481;
+    font-family: 'Hedvig Letters Serif', serif;    /**font-family: 'Dancing Script', cursive;**/
+    /**font-family: 'Hedvig Letters Serif', serif;**/
+    /**font-family: 'Libre Franklin', sans-serif;**/
+   /** font-family: 'Mukta', sans-serif;**/
+   /** font-family: 'Vina Sans', sans-serif;**/
 }
 .nossaHistoria p{
     font-family: 'Mukta', sans-serif;
