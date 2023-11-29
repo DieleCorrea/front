@@ -16,10 +16,39 @@ header {
 }
     
     
-   /*  padding: 10px; Adicionando algum espaço interno ao cabeçalho */
-   /*  text-align: center; /* Centralizando o texto no cabeçalho */
-
+   
 body{
     background-color: pink;
-    margin: 0;
+    margin: 0%;
 }
+/*sessão volutario*/
+.sejaVoluntario{
+    width: 100%;
+    display: flex;
+    margin: 7%;
+}
+    /*texto*/
+    .textoVoluntario{
+        width: 50%;
+    }
+    .textoVoluntario h1{
+
+    }
+    .textoVoluntario p{
+        
+    }
+    /*botoes*/
+    .botoesVoluntario{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+/*sessao historia*/
+.nossaHistoria{
+    padding: 7%;
+    background-color:#cda8b7;
+}
+
