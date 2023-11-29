@@ -36,7 +36,8 @@ body{
 
     }
     .textoVoluntario p{
-        
+        font-family: 'Mukta', sans-serif;
+
     }
     /*botoes*/
     .botoesVoluntario{
