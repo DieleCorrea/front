@@ -1,38 +1,69 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Hedvig+Letters+Serif:opsz@12..24&family=Libre+Franklin:ital,wght@1,100&family=Mukta:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Hedvig+Letters+Serif:opsz@12..24&family=Libre+Franklin:ital,wght@1,100&family=Mukta:wght@200&family=Vina+Sans&display=swap');
+
+body{
+    margin-top: 80px; /* Ajustado para ser maior que a altura do cabeçalho fixo */
+    background-color: pink;
+    margin: 0%;
+}
+/*sessao menu*/
 header {
     background-image: url('https://www.ccp.org.br/web/pf-ccp/inline-images/act047_volunteer_1.jpg') /* Substitua pelo caminho da sua imagem */;
     background-size: cover; /* Ajusta a imagem para cobrir todo o cabeçalho */
     padding: 50px; /* Adicionando algum espaço interno ao cabeçalho */
-    text-align: center;
-}
-.cabecalho{
-    font-family: 'Hedvig Letters Serif', serif;
-    color: #b84481;
-    background-color: rgb(205, 168, 183);
-    padding: 10px;
-    border-radius: 5px;
-    position: relative; 
-    top: 50%; /* Move o topo da caixa para o meio do cabeçalho */
-    left: 50%; /* Move a esquerda da caixa para o meio do cabeçalho */
-    transform: translate(-50%, -50%); /* Centraliza a caixa no meio do cabeçalho */
-}
-    
-    
-   
-body{
-    background-color: pink;
-    margin: 0%;
-}
-/*sessão volutario*/
-.sejaVoluntario{
     width: 100%;
-    display: flex;
-    margin: 7%;
+    top: 0;
+    text-align: center;
+    z-index: 1000;
+    position: fixed;
 }
+    .cabecalho{
+        padding: 50px;
+        width: 90%;
+        display: flex;
+        flex-direction: column ;
+        font-family: 'Hedvig Letters Serif', serif;
+        color: #b84481;
+        background-color: rgb(205, 168, 183);
+        padding: 10px;
+        border-radius: 5px;
+        position: relative; 
+        left: 50%; /* Move a esquerda da caixa para o meio do cabeçalho */
+        transform: translate(-50%, -50%); /* Centraliza a caixa no meio do cabeçalho */
+    }
+
+    /*botoes*/
+    .botoesVoluntario{
+        border: #cda8b7;
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+    justify-content: space-around;
+
+        
+        
+    }
+    .botoesVoluntario button{
+        background-color: #78cbdd;
+        border:#f05a80;
+        padding: 10px;
+        border-radius: 10px;
+        width: max-content;
+        margin: 0 10px; /* Adiciona margem de 10 pixels à direita e à esquerda de cada botão */
+        
+    }
+    
+/*sessão volutario*/
+    .sejaVoluntario{
+        display: flex;
+        flex-direction: column;
+        
+        margin: 7%;
+    }
+
     /*texto*/
     .textoVoluntario{
-        width: 50%;
+        
     }
     .textoVoluntario h1{
         color: #b84481;
@@ -42,29 +73,22 @@ body{
         font-family: 'Mukta', sans-serif;
 
     }
-    /*botoes*/
-    .botoesVoluntario{
-        width: 50%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+   
 
 /*sessao historia*/
-.nossaHistoria{
-    padding: 7%;
-    background-color:#cda8b7;
-}
-.nossaHistoria h1{
-    color: #b84481;
-    font-family: 'Hedvig Letters Serif', serif;    /**font-family: 'Dancing Script', cursive;**/
-    /**font-family: 'Hedvig Letters Serif', serif;**/
-    /**font-family: 'Libre Franklin', sans-serif;**/
-   /** font-family: 'Mukta', sans-serif;**/
-   /** font-family: 'Vina Sans', sans-serif;**/
-}
-.nossaHistoria p{
-    font-family: 'Mukta', sans-serif;
+    .nossaHistoria{
+        padding: 7%;
+        background-color:#cda8b7;
+    }
+    .nossaHistoria h1{
+        color: #b84481;
+        font-family: 'Hedvig Letters Serif', serif;    /**font-family: 'Dancing Script', cursive;**/
+        /**font-family: 'Hedvig Letters Serif', serif;**/
+        /**font-family: 'Libre Franklin', sans-serif;**/
+    /** font-family: 'Mukta', sans-serif;**/
+    /** font-family: 'Vina Sans', sans-serif;**/
+    }
+    .nossaHistoria p{
+        font-family: 'Mukta', sans-serif;
 
-}
+    }
