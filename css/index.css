@@ -22,6 +22,7 @@ body{
 }
     .SessaoCabecalho{
         width: 80%;
+        height: 7rem;
         display: flex;
         flex-direction: column ;
         font-family: 'Hedvig Letters Serif', serif;
@@ -44,9 +45,11 @@ body{
         width: 50%;
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+       
     }
     .botoesVoluntario button{
+        
+        text-align: center;
         background-color: #78cbdd;
         border:#f05a80;
         padding: 10px;
@@ -54,7 +57,7 @@ body{
         width: max-content;
         margin: 0 10px; /* Adiciona margem de 10 pixels à direita e à esquerda de cada botão */
         
-    }
+    }*/
 main{
  margin: 10rem;
 }
