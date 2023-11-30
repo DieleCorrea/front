@@ -2,12 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Hedvig+Letters+Serif:opsz@12..24&family=Libre+Franklin:ital,wght@1,100&family=Mukta:wght@200&family=Vina+Sans&display=swap');
 
 body{
-    margin-top: 80px; /* Ajustado para ser maior que a altura do cabeçalho fixo */
+    display: flex;
+    margin-top: 80px;
     background-color: rgb(255, 233, 237);
     margin: 0%;
+    flex-direction: column;
+    align-items: center;
 }
 /*sessao menu*/
 .menu { 
+    max-width: 901px;
     margin: 2rem 0rem -1rem 0rem;
     background-size: cover;
     /* padding: 46px; */
@@ -59,6 +63,7 @@ body{
         
     }
 main{
+    max-width: 901px;
     margin: 5rem 0rem 1rem 0rem;
     display: flex;
     background-image: url(https://www.ccp.org.br/web/pf-ccp/inline-images/act047_volunteer_1.jpg) /* Substitua pelo caminho da sua imagem */;
@@ -70,6 +75,7 @@ main{
 
 /*sessão volutario*/
     .SessaoSejaVoluntario{
+        max-width: 901px;
         padding: 7%;
         width: 50%;
         color: #75cac3;
@@ -95,6 +101,7 @@ main{
 
 /*sessao historia*/
     .SessaoNossaHistoria{
+        max-width: 901px;
         padding: 7%;
         width: 50%;
         color: #75cac3;
@@ -116,6 +123,7 @@ main{
     }
 /*sessão missao*/
 .sessaoMissao{
+    max-width: 901px;
     padding: 7%;
     width: 50%;
         color: #75cac3;
@@ -135,17 +143,17 @@ main{
     text-align:justify;
 }
 /*sessao footer*/
-footer{
-    background-image: url(https://www.ccp.org.br/web/pf-ccp/inline-images/act047_volunteer_1.jpg) /* Substitua pelo caminho da sua imagem */;
+
+footer{ 
+    width: 57rem;
+    height: 10%;
+    max-width: 901px;
     display: flex;
+    background-image: url(https://www.ccp.org.br/web/pf-ccp/inline-images/act047_volunteer_1.jpg) /* Substitua pelo caminho da sua imagem;; */;
     flex-direction: row;
-    justify-content: space-evenly;
-    
-
-
-}
+    justify-content: center;}
 footer h4{
-    
+    width: 50%;
     color: #b84481;
     font-family: 'Hedvig Letters Serif', serif;  
     text-align: center;
