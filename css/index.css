@@ -2,9 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Hedvig+Letters+Serif:opsz@12..24&family=Libre+Franklin:ital,wght@1,100&family=Mukta:wght@200&family=Vina+Sans&display=swap');
 
 body{
-    margin-top: 80px; /* Ajustado para ser maior que a altura do cabeçalho fixo */
+   
     background-color: pink;
-    margin: 0%;
+    max-width: 1200px; /* Ajuste conforme necessário */
+    margin: 0 auto; /* Margens automáticas para centralizar */
 }
 /*sessao menu*/
 .menu {
@@ -13,13 +14,14 @@ body{
     padding: 50px; /* Adicionando algum espaço interno ao cabeçalho */
     width: 100%;
     top: 0;
+    left: 0;
     text-align: center;
     height: 50px;
     position: fixed;
     border-radius: 1.5%;
 }
     .SessaoCabecalho{
-        width: 90%;
+        width: 80%;
         display: flex;
         flex-direction: column ;
         font-family: 'Hedvig Letters Serif', serif;
@@ -28,6 +30,7 @@ body{
         border-radius: 5px;
         position: relative; 
         left: 50%; /* Move a esquerda da caixa para o meio do cabeçalho */
+        right: 50%;
         transform: translate(-50%, -50%); /* Centraliza a caixa no meio do cabeçalho */
     }
     .SessaoCabecalho h1{
@@ -41,10 +44,7 @@ body{
         width: 50%;
         display: flex;
         flex-direction: row;
-    justify-content: space-around;
-
-        
-        
+        justify-content: space-around;
     }
     .botoesVoluntario button{
         background-color: #78cbdd;
@@ -99,5 +99,5 @@ main{
     }
 /*sessao footer*/
 footer{
-    background-color: #f05a80;
+    background-image: url('https://www.ccp.org.br/web/pf-ccp/inline-images/act047_volunteer_1.jpg') /* Substitua pelo caminho da sua imagem */;
 }
