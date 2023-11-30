@@ -7,29 +7,32 @@ body{
     margin: 0%;
 }
 /*sessao menu*/
-header {
+.menu {
     background-image: url('https://www.ccp.org.br/web/pf-ccp/inline-images/act047_volunteer_1.jpg') /* Substitua pelo caminho da sua imagem */;
     background-size: cover; /* Ajusta a imagem para cobrir todo o cabeçalho */
     padding: 50px; /* Adicionando algum espaço interno ao cabeçalho */
     width: 100%;
     top: 0;
     text-align: center;
-    z-index: 1000;
+    height: 50px;
     position: fixed;
+    border-radius: 1.5%;
 }
-    .cabecalho{
-        padding: 50px;
+    .SessaoCabecalho{
         width: 90%;
         display: flex;
         flex-direction: column ;
         font-family: 'Hedvig Letters Serif', serif;
         color: #b84481;
         background-color: rgb(205, 168, 183);
-        padding: 10px;
         border-radius: 5px;
         position: relative; 
         left: 50%; /* Move a esquerda da caixa para o meio do cabeçalho */
         transform: translate(-50%, -50%); /* Centraliza a caixa no meio do cabeçalho */
+    }
+    .SessaoCabecalho h1{
+        background-color: #78cbdd;
+        border-radius: 6%;
     }
 
     /*botoes*/
@@ -52,43 +55,49 @@ header {
         margin: 0 10px; /* Adiciona margem de 10 pixels à direita e à esquerda de cada botão */
         
     }
-    
+main{
+ margin: 10rem;
+}
 /*sessão volutario*/
-    .sejaVoluntario{
+    .SessaoSejaVoluntario{
         display: flex;
         flex-direction: column;
-        
-        margin: 7%;
     }
 
     /*texto*/
     .textoVoluntario{
-        
+        padding: 7%;
+        background-color:#cda8b7;
+        border-radius: 10%;
     }
     .textoVoluntario h1{
         color: #b84481;
         font-family: 'Hedvig Letters Serif', serif;
+        text-align: center;
     }
     .textoVoluntario p{
         font-family: 'Mukta', sans-serif;
-
+        text-align:justify;
     }
    
 
 /*sessao historia*/
-    .nossaHistoria{
+    .SessaoNossaHistoria{
         padding: 7%;
         background-color:#cda8b7;
+        border-radius: 10%;
     }
-    .nossaHistoria h1{
+    .SessaoNossaHistoria h1{
         color: #b84481;
-        font-family: 'Hedvig Letters Serif', serif;    /**font-family: 'Dancing Script', cursive;**/
-        /**font-family: 'Hedvig Letters Serif', serif;**/
-        /**font-family: 'Libre Franklin', sans-serif;**/
-    /** font-family: 'Mukta', sans-serif;**/
-    /** font-family: 'Vina Sans', sans-serif;**/
+        font-family: 'Hedvig Letters Serif', serif;  
+        text-align: center;
     }
-    .nossaHistoria p{
+    .SessaoNossaHistoria p{
+        text-align:justify;
         font-family: 'Mukta', sans-serif;
 
     }
+/*sessao footer*/
+footer{
+    background-color: #f05a80;
+}
