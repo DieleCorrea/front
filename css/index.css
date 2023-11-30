@@ -2,32 +2,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Hedvig+Letters+Serif:opsz@12..24&family=Libre+Franklin:ital,wght@1,100&family=Mukta:wght@200&family=Vina+Sans&display=swap');
 
 body{
-   
-    background-color: pink;
-    max-width: 1200px; /* Ajuste conforme necessário */
-    margin: 0 auto; /* Margens automáticas para centralizar */
+    margin-top: 80px; /* Ajustado para ser maior que a altura do cabeçalho fixo */
+    background-color: rgb(255, 233, 237);
+    margin: 0%;
 }
 /*sessao menu*/
-.menu {
-    background-image: url('https://www.ccp.org.br/web/pf-ccp/inline-images/act047_volunteer_1.jpg') /* Substitua pelo caminho da sua imagem */;
-    background-size: cover; /* Ajusta a imagem para cobrir todo o cabeçalho */
-    padding: 50px; /* Adicionando algum espaço interno ao cabeçalho */
+.menu { 
+    margin: 2rem 0rem -1rem 0rem;
+    background-size: cover;
+    /* padding: 46px; */
     width: 100%;
     top: 0;
-    left: 0;
     text-align: center;
-    height: 50px;
+    height: 10rem;
     position: fixed;
     border-radius: 1.5%;
 }
     .SessaoCabecalho{
-        width: 80%;
-        height: 7rem;
+        padding: 0.5%;
+        width: 100%;
         display: flex;
-        flex-direction: column ;
+        flex-direction: row ;
         font-family: 'Hedvig Letters Serif', serif;
         color: #b84481;
-        background-color: rgb(205, 168, 183);
+        background-color: #f05a80;
         border-radius: 5px;
         position: relative; 
         left: 50%; /* Move a esquerda da caixa para o meio do cabeçalho */
@@ -35,7 +33,8 @@ body{
         transform: translate(-50%, -50%); /* Centraliza a caixa no meio do cabeçalho */
     }
     .SessaoCabecalho h1{
-        background-color: #78cbdd;
+        
+        color: #ffe9ed;
         border-radius: 6%;
     }
 
@@ -45,49 +44,63 @@ body{
         width: 50%;
         display: flex;
         flex-direction: row;
-       
+    justify-content: space-around;
+
+        
+        
     }
     .botoesVoluntario button{
-        
-        text-align: center;
-        background-color: #78cbdd;
+        background-color: #ffe9ed;
         border:#f05a80;
         padding: 10px;
         border-radius: 10px;
         width: max-content;
         margin: 0 10px; /* Adiciona margem de 10 pixels à direita e à esquerda de cada botão */
         
-    }*/
+    }
 main{
- margin: 10rem;
+    margin: 5rem 0rem 1rem 0rem;
+    display: flex;
+    background-image: url(https://www.ccp.org.br/web/pf-ccp/inline-images/act047_volunteer_1.jpg) /* Substitua pelo caminho da sua imagem */;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: space-around;
+    align-items: center;
 }
+
 /*sessão volutario*/
     .SessaoSejaVoluntario{
+        padding: 7%;
+        width: 50%;
+        color: #75cac3;
+        background-color: #ffff;
         display: flex;
         flex-direction: column;
+        border-radius: 10%;
+        
     }
 
-    /*texto*/
-    .textoVoluntario{
-        padding: 7%;
-        background-color:#cda8b7;
-        border-radius: 10%;
-    }
-    .textoVoluntario h1{
+    
+    .SessaoSejaVoluntario h1{
         color: #b84481;
         font-family: 'Hedvig Letters Serif', serif;
         text-align: center;
     }
-    .textoVoluntario p{
-        font-family: 'Mukta', sans-serif;
+    .SessaoSejaVoluntario p{
+        color: #75cac3;
         text-align:justify;
+        font-family: 'Mukta', sans-serif;
     }
    
 
 /*sessao historia*/
     .SessaoNossaHistoria{
         padding: 7%;
-        background-color:#cda8b7;
+        width: 50%;
+        color: #75cac3;
+        background-color: #ffff;
+        display: flex;
+        flex-direction: column;
         border-radius: 10%;
     }
     .SessaoNossaHistoria h1{
@@ -96,11 +109,32 @@ main{
         text-align: center;
     }
     .SessaoNossaHistoria p{
+        color: #75cac3;
         text-align:justify;
         font-family: 'Mukta', sans-serif;
 
     }
+/*sessão missao*/
+.sessaoMissao{
+    padding: 7%;
+    width: 50%;
+        color: #75cac3;
+        background-color: #ffff;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10%;
+}
+.sessaoMissao h1{
+    color: #b84481;
+    font-family: 'Hedvig Letters Serif', serif;  
+    text-align: center;
+}
+.sessaoMissao p{
+    color: #75cac3;
+    text-align:justify;
+    font-family: 'Mukta', sans-serif;
+}
 /*sessao footer*/
 footer{
-    background-image: url('https://www.ccp.org.br/web/pf-ccp/inline-images/act047_volunteer_1.jpg') /* Substitua pelo caminho da sua imagem */;
+    background-image: url(https://www.ccp.org.br/web/pf-ccp/inline-images/act047_volunteer_1.jpg) /* Substitua pelo caminho da sua imagem */;
 }
