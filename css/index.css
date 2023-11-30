@@ -137,4 +137,18 @@ main{
 /*sessao footer*/
 footer{
     background-image: url(https://www.ccp.org.br/web/pf-ccp/inline-images/act047_volunteer_1.jpg) /* Substitua pelo caminho da sua imagem */;
+    display: flex;
+}
+footer h4{
+    color: #b84481;
+    font-family: 'Hedvig Letters Serif', serif;  
+    text-align: center;
+}
+footer p{
+    color: #75cac3;
+    text-align:justify;
+    font-family: 'Mukta', sans-serif;
+}
+.a, .b, .c{
+    background-color: #ffff; 
 }
