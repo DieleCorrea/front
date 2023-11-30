@@ -164,6 +164,11 @@ footer p{
     text-align:justify;
     
 }
+footer a{
+    text-decoration: none;
+    color: #799ad0;
+border-radius: 10px;
+}
 .a, .b, .c{
     background-color:#ddf6fc; 
     padding: 3%;
