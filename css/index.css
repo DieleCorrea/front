@@ -73,7 +73,7 @@ main{
         padding: 7%;
         width: 50%;
         color: #75cac3;
-        background-color: #ffff;
+        background-color: #ddf6fc;
         display: flex;
         flex-direction: column;
         border-radius: 10%;
@@ -87,9 +87,9 @@ main{
         text-align: center;
     }
     .SessaoSejaVoluntario p{
-        color: #75cac3;
+        font-family: 'Hedvig Letters Serif', serif;  
+        color: #799ad0;
         text-align:justify;
-        font-family: 'Mukta', sans-serif;
     }
    
 
@@ -98,7 +98,7 @@ main{
         padding: 7%;
         width: 50%;
         color: #75cac3;
-        background-color: #ffff;
+        background-color: #ddf6fc;
         display: flex;
         flex-direction: column;
         border-radius: 10%;
@@ -109,9 +109,9 @@ main{
         text-align: center;
     }
     .SessaoNossaHistoria p{
-        color: #75cac3;
-        text-align:justify;
-        font-family: 'Mukta', sans-serif;
+        font-family: 'Hedvig Letters Serif', serif;  
+    color: #799ad0;
+    text-align:justify;
 
     }
 /*sessão missao*/
@@ -119,7 +119,7 @@ main{
     padding: 7%;
     width: 50%;
         color: #75cac3;
-        background-color: #ffff;
+        background-color: #ddf6fc;
         display: flex;
         flex-direction: column;
         border-radius: 10%;
@@ -130,25 +130,36 @@ main{
     text-align: center;
 }
 .sessaoMissao p{
-    color: #75cac3;
+    font-family: 'Hedvig Letters Serif', serif;  
+    color: #799ad0;
     text-align:justify;
-    font-family: 'Mukta', sans-serif;
 }
 /*sessao footer*/
 footer{
     background-image: url(https://www.ccp.org.br/web/pf-ccp/inline-images/act047_volunteer_1.jpg) /* Substitua pelo caminho da sua imagem */;
     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+
+
 }
 footer h4{
+    
     color: #b84481;
     font-family: 'Hedvig Letters Serif', serif;  
     text-align: center;
 }
 footer p{
-    color: #75cac3;
+    font-family: 'Hedvig Letters Serif', serif;  
+    color: #799ad0;
     text-align:justify;
-    font-family: 'Mukta', sans-serif;
+    
 }
 .a, .b, .c{
-    background-color: #ffff; 
+    background-color:#ddf6fc; 
+    padding: 3%;
+    border-radius: 10%;
+    margin: 3%;
+   
 }
